@@ -9,7 +9,7 @@ export const NavBar = ({title}) => {
     )
 };
 
-const styles = StylesSheet.create({
+const styles = StyleSheet.create({
     navbar: {
         height: 70,
         alignItems: 'center',
