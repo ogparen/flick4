@@ -19,12 +19,12 @@ export const AddTodo = ({ onSubmit }) => {
              style={styles.input} 
              onChangeText={setValue}
              value={value}
-             placeholder="Напишите задачу"
+             placeholder="Tony Montana?"
              />
             <Button title="Добавить" onPress={pressHandler} />
         </View>
-    )
-}
+    );
+};
 
 const styles = StyleSheet.create({
     block: {
@@ -38,6 +38,6 @@ input: {
     padding: 10,
     borderStyle: "solid",
     borderBottomWidth: 2,
-    borderBottomColor: "#3949ab"
+    borderBottomColor: "#6765ab"
 }
 });
